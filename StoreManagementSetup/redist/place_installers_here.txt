@@ -1,0 +1,9 @@
+This folder is for offline installers.
+To distribute a completely offline installer (without downloading packages at install time), place the following files here before compiling this Inno Setup project:
+
+1. OpenJDK 25 MSI installer -> rename to: openjdk25.msi
+2. Apache Tomcat 9 ZIP (Windows x64) -> rename to: tomcat9.zip
+3. MySQL Server 8 ZIP (Windows x64) -> rename to: mysql8.zip
+4. Apache Maven binary ZIP -> rename to: maven.zip
+
+If these files are not present in this folder, the installer will automatically download them over the internet during setup.

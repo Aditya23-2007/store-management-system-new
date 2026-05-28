@@ -1,0 +1,3 @@
+Run reset_store_db_transfer_scrap.sql (or store_db.sql) in MySQL Workbench before testing the updated application.
+This deletes the existing store_db and recreates the database with the exact column names used by the JSP/Servlet code.
+This prevents errors such as: Unknown column 'p.name' in 'field list'.
